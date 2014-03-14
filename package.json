@@ -1,0 +1,24 @@
+{
+  "name": "simpleAMDLoader",
+  "version": "0.0.1",
+  "description": "A simple reaction - provided with name it loads a module by this name using AMD. Never invokes done(error)",
+  "main": "src/loader.js",
+  "scripts": {
+    "test": "jasmine-node test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:vbogdanov/simpleAMDLoader.git"
+  },
+  "keywords": [
+    "reaction",
+    "loader",
+    "requirejs"
+  ],
+  "author": "Valeri Bogdanov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vbogdanov/simpleAMDLoader/issues"
+  },
+  "homepage": "https://github.com/vbogdanov/simpleAMDLoader"
+}
