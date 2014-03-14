@@ -1,5 +1,5 @@
 {
-  "name": "simpleAMDLoader",
+  "name": "simpleamdloader",
   "version": "0.0.1",
   "description": "A simple reaction - provided with name it loads a module by this name using AMD. Never invokes done(error)",
   "main": "src/loader.js",
