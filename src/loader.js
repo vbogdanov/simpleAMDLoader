@@ -4,7 +4,7 @@ if (typeof define !== 'function') {
 
 define(['requirejs'], function (requirejs) {
   'use strict';
-  return function (fqn, done) {-
+  return function (fqn, done) {
     //FIXME: this changing of error handling for requirejs is NOT NICE :(
     var tmp = requirejs.onError;
     requirejs.onError = function (err) {
